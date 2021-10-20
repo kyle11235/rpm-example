@@ -1,0 +1,8 @@
+[Artifactory]
+name=Artifactory
+baseurl=http://kyle:xxx@182.92.214.141:8081/artifactory/kyle-rpm-virtual/7/extras/x86_64/
+enabled=1
+gpgcheck=0
+#Optional - if you have GPG signing keys installed, use the below flags to verify the repository metadata signature:
+#gpgkey=http://kyle:xxx@182.92.214.141:8081/artifactory/kyle-rpm-virtual/<PATH_TO_REPODATA_FOLDER>/repomd.xml.key
+#repo_gpgcheck=1
